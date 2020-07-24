@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 33" width="21" height="33">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-544 -2345L822 -2345L822 205L-544 205Z" />
+		</clipPath>
+		<image width="21" height="33" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAhCAYAAAA2/OAtAAADEUlEQVRIS6WVS2hUSRSGv9MdZYYs4mOjQ0TQhcosfIEoIaCCGxXJ7UYRnIWgLlRE8IEO0zc0qR7B90YUJL5wJWjfVnEhzKj4RNREgmgWOooikZEZBxciQ9JHqk03t2/f2zettaz666tT5z+nSogYqd90viZJocwHpgLNwCeEFwr3E4qXN3InbLsEJ9Ou/lyEvcCyqAPL8wpXSbK7kJXHfm0V1OnUNShngGQc0L+uwvpCl5woz1WgHa7+InC2EVggug15I912rgRdkdFpSaG/DnAA+BcYB0yM0iWSzLyQlb4S1OnUe8OGVOltzkQ42JLg1umsfF6b1R8+FlmgyjZgeQ1c6fNyMlNSrrYp3A45/YBnZGdkdbhqFDLBdVGWiJPR4wgbqhIPfxSMLInLr+Pq5WDEqpyVDld7BGb7AQmYc8FIbxw0ndXpxSGeBXTPxHHVmjDBV3uvC0YmxwHL646r1uBpPv17C/0AjKnUmHA33yVtDUD/BBb79B8s9DUwyTf51jPS2gD0+XAbl7cMWKMeIczxQ4pF2i7+LnfjwGlXZxehJ1CHT2yk54BVge64nzdiH5K6w3H1OrAwILpkoTuA/SG7T3pG1kXWaaceVWVjSJ122pKaK/AwbLNCb0I4nBziWvMo/vn4P2NJskiFrSjzQg8s0v61TV19BdQro8/Af0AL8GOdnLxr6qe13Pv7UCJbMi63lXKEI3kjW75CMzoD4elIN0fpyp1YeU8dV28C7d8BfuAZKeW5Ak1ndGlRuPLNUCXt5SRfBR02zKZgxjeA//KM2M+xNKr+qFRGV6hwsVGoCKvzXWKbqBY6bFovwqwGwP2ekarb1XzRjqsLgNi+Lx+qyqJCTm74g6iB2sWUq+cV0iOI9opnpOavCoU6v+p4mngHNNUDyxA/5feIfeSrRijUKjoyulGEo3Wg2z0jh8LWI6El06K/7t6Ckao3ODanZUEqq606xJtgNIPKlMs5eRl1i7qRltLg6lqBUz63NxVycqxurkfgsL8aQt0esVF+4cpd2jI4mm6SbPay8ndcIF8ACBoNkTnDST0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="gallery" clip-path="url(#cp1)">
+		<g id="футер ">
+			<use id="иконка геолокация" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

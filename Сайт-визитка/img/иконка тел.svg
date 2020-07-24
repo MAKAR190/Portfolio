@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" width="29" height="29">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-540 -2407L826 -2407L826 143L-540 143Z" />
+		</clipPath>
+		<image width="29" height="29" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAEw0lEQVRIS62WW2xUVRSGv3XOcBOlCApBQRtRRAz4ALFBVBSNUIV2ZkhjgaIPKlESTLQBCZ2ZHKZDkJsPBS+UiDyIoIWZFoxEApF4CwRvXEQkItEoUaLEEAqFzpll9jCD0+mcaTHsx3P+9f977/WvtbbwP1cgojGUl4ETqhyyhF3tyu4hp/itsVHai9FK7s/yedqrx0CG2XAm4cipYoHBkNamhFkC/YAhwDUZ/HoR3o1H5ROv+Mui/jq917JYoHAXwl8oLT6bNU2OXCwUXOVozyT0d5Nc38Oi1IUJojwKjAdchJU+i+VNjpzOj0+LBsI6EXgPuCkXIFAXr2cpiHYnCxWLdLDP4gEVlgG3AftRnk7E5IcOvJVhLbPgI2BAAeKzKbivpV4OdUc0i6mq05uTwgqEGQI/ic20rY4czf6XYFj3KpR5kgo1iahszP/vD6lf4O6UxUHb4vu4w4n8G/FHdKUotcDXbTaTdjhyxvBIIKzngD5Fkt5oH2VuU5O4uZhgWNcqzMl8O4PwTsqiscWRI7k4f1g3CsxUYfWgP6g1zjaiJzPu89I95rMZn2+ICkdvt1zuN6cFnsAYEI4j1Cai0pIl8zvaX1w+BUpVqWiOyR4JhPQAwpiidWUzNu7IN16YYJ3eqkINQgw4K8JT8agkLgtHdLooW4DNSZtnzEmNicqLGsVmdMKRw12ZKRDWamCTwq/2JfMcNDHljvbr7dIMTHSVUeKPaIMo84oQbms9z8ydK6U1FzPN0Rt6tNM3vkR+ycvhAoFlAmtO27y0x5FkuixDOh9huSgvSjCiT6qy2UN0PzY1CUeOdXJvRBtQKlHeOtdGQ3ZTplZtm90CpUll7LaY/Ghig3X6oFpsB76UgKMjcDkA9M4j/tNKMXXrEvmq0IYCEX0OZXHGhPMT9azKlkwgrAuBpSJUx6PyvomvrNNhlsUO4FqpWKDX2b3SSX4srxu1ppSa5piYXHRaVVVqJ0cwHotNwMCUzbhsufjDOkdgLcq6e3w87ziSqnpFS9p7sUuUcek26A/pCyK8UYA7XmIza4MjbV4590e0XGCyz2VF0xL53eAqQnqnBdUChxIxEuYGzCbbRzLbguFp0UpHR1kuHwND88lVmdwck51dOfdK/l+eMoGwroL0fOywBPa120za7ojpXFdl/TfaQjpcBDMDh3USFt6MR2XuVVE0vbdAjb2a/91gRFgcj4pzNYQ7iKYdOTKd20cKkguvt1ksyk6LXMxDjvoGXORGetLHPs/f/MzZ/CGRxXcQzdaTWHwucIuH8F6UhW3/sHfHarlgMAFHB0kKR5UZQF/gO4UvRPnM8nEkd5amb60QcTCsExSaikyfCyhxYIsoJ9UilJk0nehMHxZ4u8Rmebb0CoqayOkhfTwlrAcGF8mjmbHmAWceZl2t2kS9vOZ50mx0MKIPp5QNnlfdlUzuf+WwKFPNgPA8aRZverO6NMilNtklvsg+TlkwZWu9fNtNEhV/iIUi6edJ6ZUcMMex+9Smwrynuyl6KbQyrKMteNZMqkIt02szAq2qVCdi8mGXOfUime7oGNdlisAU8xoArCKnv6gwu7lePvCs0yu5uvSjC4ZqijJJUYZwR8btJZn5fFyUWDwm23J5/wXAUr17ZJiengAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="gallery" clip-path="url(#cp1)">
+		<g id="футер ">
+			<use id="иконка тел" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

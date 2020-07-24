@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@600&family=Work+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#ABOUT-ME" class="menu-items--1">About Me</a>
+          </li>
+          <li class="menu-item">
+            <a href="#WORK" class="menu-items--2">Work Days</a>
+          </li>
+          <li class="menu-item">
+            <a href="#PRICE" class="menu-items--3">Price</a>
+          </li>
+          <li class="menu-item">
+            <a href="#FEEDBACKS" class="menu-items--4">Feedbacks</a>
+          </li>
+          <li class="menu-item">
+            <a href="#FOOTER" class="menu-items--5">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ! menu for mobile -->
+    <header id="mobileHeader" class="mobileHeader">
+      <nav class="navigationMobile">
+        <a href="" class="logo"
+          ><img
+            id="forHeader"
+            class="header-img"
+            src="./img/лого .svg"
+            alt="" /><img
+            id="TWOO"
+            class="header-img"
+            src="./img/logo2.svg"
+            alt=""
+        /></a>
+
+        <div class="dropdown">
+          <input type="checkbox" id="menu" />
+          <label for="menu"><i class="fas fa-bars"></i></label>
+          <ul class="menuMobile">
+            <li class="menu-items">
+              <a href="#ABOUT-ME" class="menu-items--1">About Me</a>
+            </li>
+            <li class="menu-items">
+              <a href="#WORK" class="menu-items--2">Work Days</a>
+            </li>
+            <li class="menu-items">
+              <a href="#PRICE" class="menu-items--3">Price</a>
+            </li>
+            <li class="menu-items">
+              <a href="#FEEDBACKS" class="menu-items--4">Feedbacks</a>
+            </li>
+            <li class="menu-items">
+              <a href="#FOOTER" class="menu-items--5">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- ! menu for mobile -->
+
+    <section id="ABOUT-ME" class="about-me">
+      <div data-aos="fade-right" class="my-profile">
+        <img
+          src="https://i.pinimg.com/originals/55/4c/10/554c101ce320e0433c0654f28e2d05f2.png"
+          alt="Makar Lutskyi"
+          class="profile-img"
+        />
+        <h2 class="name">Makar Lutskyi</h2>
+        <p class="job">FE developer</p>
+      </div>
+    </section>
+    <section data-aos="fade-right" class="slider">
+      <div class="all">
+        <input checked type="radio" name="respond" id="desktop" />
+        <article id="slider">
+          <input checked type="radio" name="slider" id="switch1" />
+          <input type="radio" name="slider" id="switch2" />
+          <input type="radio" name="slider" id="switch3" />
+          <input type="radio" name="slider" id="switch4" />
+          <input type="radio" name="slider" id="switch5" />
+          <div id="slides">
+            <div id="overflow">
+              <div class="image">
+                <article>
+                  <div class="article-wrap">
+                    <img class="slider-img" src="./img/html5.png" />
+                    <div class="slider-text">
+                      <h4>HTML</h4>
+                      <p>
+                        I am learning HTML for one year and have many experience
+                        with it.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div id="secondSlider" class="article-wrap">
+                    <img class="slider-img" src="./img/hotpng.com.png" />
+                    <div class="slider-text">
+                      <h4>CSS</h4>
+                      <p>
+                        I am learning CSS for one year and have many experience
+                        with it.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="article-wrap">
+                    <img class="slider-img" src="./img/kindpng_678384.png" />
+                    <div class="slider-text">
+                      <h4>JS</h4>
+                      <p>
+                        I am learning JS for one year and have many experience
+                        with it.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <div class="article-wrap">
+                    <img class="slider-img" src=".//img/wordpress.png" />
+                    <div class="slider-text">
+                      <h4>Wordpress</h4>
+                      <p>
+                        I am learning HTML for one year and have many experience
+                        with it.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div id="controls">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+            <label for="switch4"></label>
+          </div>
+          <div id="active">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+            <label for="switch4"></label>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section data-aos="fade-right" id="WORK" class="work-days">
+      <div class="work-text">
+        <h2 class="work-title">Work Days</h2>
+      </div>
+      <ul class="work-cards">
+        <li data-aos="slide-up" class="work-item">
+          <div class="work">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2 class="work-title">Monday</h2>
+            <p class="work-descr">I usually work from 11:00 to 17:00</p>
+          </div>
+        </li>
+        <li data-aos="slide-up" class="work-item">
+          <div id="second-card" class="work">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2 class="work-title">Tuesday</h2>
+            <p class="work-descr">I usually work from 11:00 to 17:00</p>
+          </div>
+        </li>
+        <li data-aos="slide-up" class="work-item">
+          <div id="third-card" class="work">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2 class="work-title">Wednsdey</h2>
+            <p class="work-descr">I usually work from 11:00 to 18:00</p>
+          </div>
+        </li>
+        <li data-aos="slide-up" class="work-item">
+          <div id="forth-card" class="work">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2 class="work-title">Thursday</h2>
+            <p class="work-descr">I usually work from 12:00 to 17:00</p>
+          </div>
+        </li>
+        <li data-aos="slide-up" class="work-item">
+          <div id="fifth-card" class="work">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2 class="work-title">Friday</h2>
+            <p class="work-descr">I usually work from 11:00 to 16:00</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="PRICE" class="price">
+      <h2 class="pricing-title">Pricing</h2>
+      <ul data-aos="fade-right" class="price-list">
+        <li data-aos="flip-up">
+          <article class="price-card">
+            <div class="categoryBlock">
+              <h3 class="categoryBlock-planType">Starter</h3>
+              <p class="state"><sup>$</sup>6.99</p>
+              <p class="categoryBlock-accrualStep">Per hour</p>
+              <p class="categoryBlock-paymentFrequency">Billed Annually</p>
+            </div>
+            <div class="card-abilities">
+              <ul>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-storage">
+                    <span class="card-abilities-word"> Fast Work</span>
+                  </p>
+                </li>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-bandwith">
+                    <span class="card-abilities-word"> Minimize Code</span>
+                  </p>
+                </li>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-databases">
+                    <span class="card-abilities-word"> Beautiful Site</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </li>
+        <li data-aos="flip-up">
+          <article class="price-card recommended">
+            <div class="categoryBlock">
+              <h3 class="categoryBlock-planType">Standard</h3>
+              <p class="state"><sup>$</sup>19.99</p>
+              <p class="categoryBlock-accrualStep">Per day</p>
+              <p class="categoryBlock-paymentFrequency">Billed Annually</p>
+            </div>
+            <div class="card-abilities">
+              <ul>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-storage">
+                    <span class="card-abilities-word"> Fast Work</span>
+                  </p>
+                </li>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-bandwith">
+                    <span class="card-abilities-word"> Minimize Code</span>
+                  </p>
+                </li>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-databases">
+                    <span class="card-abilities-word"> Beautiful Site</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </li>
+        <li data-aos="flip-up">
+          <article class="price-card">
+            <div class="categoryBlock">
+              <h3 class="categoryBlock-planType">Premium</h3>
+              <p class="state"><sup>$</sup>99.99</p>
+              <p class="categoryBlock-accrualStep">Per project</p>
+              <p class="categoryBlock-paymentFrequency">Billed Annually</p>
+            </div>
+            <div class="card-abilities">
+              <ul>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-storage">
+                    <span class="card-abilities-word"> Fast Work</span>
+                  </p>
+                </li>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-bandwith">
+                    <span class="card-abilities-word"> Minimize Code</span>
+                  </p>
+                </li>
+                <li class="card-abilities-line">
+                  <p class="card-abilities-databases">
+                    <span class="card-abilities-word"> Beautiful Site</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <section id="FEEDBACKS" class="orders">
+      <div data-aos="fade-up" class="orders-box">
+        <form name="form" class="orders-form">
+          <h2 class="orders-tittle">Feedbacks</h2>
+          <input
+            id="forName"
+            name="ordersName"
+            placeholder="Enter your name*"
+            type="text"
+            class="orders-input"
+            required
+          />
+          <input
+            id="forEmail"
+            name="ordersEmail"
+            placeholder="Enter your e-mail*"
+            type="email"
+            class="orders-input"
+            required="required"
+          />
+          <textarea
+            id="forDescription"
+            placeholder="Your feedback*"
+            name="text"
+            id=""
+            cols="30"
+            rows="10"
+            class="orders-message"
+            required="required"
+          ></textarea>
+          <div class="btn-wrap">
+            <div class="wrapperOfW">
+              <button class="a-wr">
+                <a class="orders-btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  OK
+                </a>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer data-aos="fade-right" id="FOOTER" class="footer">
+      <div class="footer-wrapper">
+        <div class="logo-footer-wrap">
+          <a href="" class="logo"
+            ><img
+              id="forFooter"
+              class="header-img"
+              src="./img/logo2.svg"
+              alt=""
+          /></a>
+          <div class="wr">
+            <div class="footer-icons">
+              <div class="icons-wrapper">
+                <img src="./img/иконка геолокация.svg" alt="" />
+                <p>Kiev,Ukraine</p>
+              </div>
+              <div id="icons-bag" class="icons-wrapper">
+                <img src="./img/иконка тел.svg" alt="" />
+                <p>+380955935600</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+          <a target="_blank" href="https://www.facebook.com/makar.lutskyi">
+            <div class="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fab fa-facebook-f"></span>
+            </div>
+            <div class="icons-text">
+              Facebook
+            </div>
+          </a>
+          <a target="_blank" href="https://twitter.com/lutskyimakar">
+            <div class="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fab fa-twitter"></span>
+            </div>
+            <div class="icons-text">
+              Twitter
+            </div>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/makarlutskyi/?hl=ru"
+          >
+            <div class="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fab fa-instagram"></span>
+            </div>
+            <div class="icons-text">
+              Instagram
+            </div>
+          </a>
+          <a target="_blank" href="https://t.me/MakarLutskyi">
+            <div class="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fab fa-telegram"></span>
+            </div>
+            <div class="icons-text">
+              Telegram
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <p class="copyright">&copy 2020 Makar Lutskyi</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
+    <script src="./preloader.js"></script>
+  </body>
+</html>

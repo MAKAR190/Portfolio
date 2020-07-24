@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color:#ff8c00;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Fredoka One';
+}
+.logo-span{
+    color: #9370d8;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Fredoka One';
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000ce;
+    height: 60px;
+}
+
+
+.message{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 16px;
+        font-family: 'Fredoka One';
+}
+.name{
+    border-bottom: 1px solid crimson;
+    margin: 20px;
+    width: 200px;
+}
+
+.name_append{
+    background-color: darkred;
+    color: darksalmon;
+    font-weight: bold;
+}
+
+.menu-items--1{
+    text-decoration: none;
+    color:#dc143c;
+    font-size: 23px;
+    font-family: 'Kadwa';
+}
+.menu-items--2{
+    text-decoration: none;
+    color:#ff4500;
+    font-size: 23px;
+    font-family: 'Kadwa';
+}
+.menu-items--3{
+    text-decoration: none;
+    color:#9acd32;
+    font-size: 23px;
+    font-family: 'Kadwa';
+}
+.menu-items--4{
+    text-decoration: none;
+    color:#40e0d0;
+    font-size: 23px;
+    font-family: 'Kadwa';
+}
+.menu-items--5{
+    text-decoration: none;
+    color:#4682b4;
+    font-size: 23px;
+    font-family: 'Kadwa';
+}
+.menu-items--1:hover{
+    transition: 1s;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #dc143c, 0 0 40px #b33838, 0 0 50px #dc143c, 0 0 60px #dc143c, 0 0 50px #dc143c;
+}
+.menu-items--2:hover{
+       transition: 1s;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #ff4500, 0 0 40px #ff4500, 0 0 50px #ff4500, 0 0 60px #ff4500, 0 0 50px #ff4500;
+}
+.menu-items--3:hover{
+       transition: 1s;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #9acd32, 0 0 40px #9acd32, 0 0 50px #9acd32, 0 0 60px #9acd32, 0 0 50px #9acd32;
+}
+.menu-items--4:hover{
+       transition: 1s;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #40e0d0, 0 0 40px #40e0d0, 0 0 50px #40e0d0, 0 0 60px #40e0d0, 0 0 50px #40e0d0;
+}
+.menu-items--5:hover{
+       transition: 1s;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 20px #4682b4, 0 0 40px #4682b4, 0 0 50px #4682b4, 0 0 60px #4682b4, 0 0 50px #4682b4;
+}
+
+
+.form{
+    display: inline-flex;
+    flex-direction: column;
+        margin-right: 100px;
+
+}
+
+.form-tittle{
+    font-size: 30px;
+    font-family: "Kadwa", sans-serif;
+    padding: 10px;
+
+}
+.form-subTittle{
+    font-size: 12px;
+    font-family: "Kadwa", sans-serif;
+    padding: 10px;
+}
+.form-btn{
+    width: 80px;
+    background-color: #9370d8;
+    font-family: "Kadwa", sans-serif;
+    font-size: 16px;
+    color: #9acd32;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.messages>h2{
+      font-size: 30px;
+    font-family: "Kadwa", sans-serif;
+
+}
+.message{
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.text{
+    padding-top: 100px;
+    text-align: center;
+}
+.text>h2{
+          font-size: 30px;
+    font-family: "Kadwa", sans-serif;
+}
+.text>p{
+        font-size: 12px;
+    font-family: "Kadwa", sans-serif;
+}
